@@ -1,2 +1,2 @@
-# ჰ Æ
+# χ Æ
 A language learning text based RPG I've started working on.
