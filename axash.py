@@ -58,8 +58,8 @@ def analyse(response):
         respond(lexicon['yes'], '.', lexicon['me'], lexicon['be'], lexicon['ash'])
     elif response == lexicon['no'] + ' . ' + lexicon['me'] + ' ' + lexicon['be'] + ' ' + lexicon['ash']:
         respond(lexicon['no'], '.', lexicon['me'], lexicon['be'], lexicon['ash'])
-    elif response == lexicon['me']:
-        respond(lexicon['you'] + ' ' + lexicon['be'] + ' ' + lexicon['person'] + ' ' + lexicon['what'] + ' ?')
+    elif response == lexicon['me'] + ' ?':
+        respond(lexicon['you'] + ' ^')
     elif response == lexicon['ash'] + ' ?':
         respond(lexicon['ash'], lexicon['be'], lexicon['me'])
     elif response == lexicon['person']:
