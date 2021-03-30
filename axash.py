@@ -14,7 +14,7 @@ possiblechar = ['¡','¢', '£', '¤', '¥', '¦', '§', 'ª', '°', '±', '²',
 'Բ', 'Գ', 'Դ', 'Ե', 'Զ', 'Է', 'Ը', 'Թ', 'Ժ', 'Ի', 'Լ', 'Խ', 'Ծ', 'Կ', 'Հ', 'Ձ', 'Ղ', 'Ճ', 'Մ', 'Յ', 'Ն', 'Շ', 'Ո', 'Չ', 'Պ', 'Ջ', 'Ռ', 'Ս', 'Վ', 'Տ', 'Ր', 'Ց', 'Ւ', 'Փ', 'Ք', 'Օ', 'Ֆ', 'ա', 'բ', 'գ', 'դ', 'ե', 'զ', 'է', 'ը', 'թ', 'ժ', 'ի', 'լ', 'խ', 'ծ', 'կ', 'հ', 'ձ', 'ղ', 'ճ', 'մ', 'յ', 'ն', 'շ', 'ո', 'չ', 'պ', 'ջ', 'ռ', 'ս', 'վ', 'տ', 'ր', 'ց', 'ւ', 'փ', 'ք', 'օ', 'ֆ', 'և', '֍', '֎', '֏', 
 '₠', '₡', '₢', '₣', '₤', '₥', '₦', '₧', '₨', '₩', '₪', '₫', '€', '₭', '₮', '₯', '₰', '₱', '₲', '₳', '₴', '₵', '₶', '₷', '₸', '₹', '₺', '₻', '₼', '₽', '₾', '₿',  
 'Ḁ', 'ḁ', 'Ḃ', 'ḃ', 'Ḅ', 'ḅ', 'Ḇ', 'ḇ', 'Ḉ', 'ḉ', 'Ḋ', 'ḋ', 'Ḍ', 'ḍ', 'Ḏ', 'ḏ', 'Ḑ', 'ḑ', 'Ḓ', 'ḓ', 'Ḕ', 'ḕ', 'Ḗ', 'ḗ', 'Ḙ', 'ḙ', 'Ḛ', 'ḛ', 'Ḝ', 'ḝ', 'Ḟ', 'ḟ', 'Ḡ', 'ḡ', 'Ḣ', 'ḣ', 'Ḥ', 'ḥ', 'Ḧ', 'ḧ', 'Ḩ', 'ḩ', 'Ḫ', 'ḫ', 'Ḭ', 'ḭ', 'Ḯ', 'ḯ', 'Ḱ', 'ḱ', 'Ḳ', 'ḳ', 'Ḵ', 'ḵ', 'Ḷ', 'ḷ', 'Ḹ', 'ḹ', 'Ḻ', 'ḻ', 'Ḽ', 'ḽ', 'Ḿ', 'ḿ', 'Ṁ', 'ṁ', 'Ṃ', 'ṃ', 'Ṅ', 'ṅ', 'Ṇ', 'ṇ', 'Ṉ', 'ṉ', 'Ṋ', 'ṋ', 'Ṍ', 'ṍ', 'Ṏ', 'ṏ', 'Ṑ', 'ṑ', 'Ṓ', 'ṓ', 'Ṕ', 'ṕ', 'Ṗ', 'ṗ', 'Ṙ', 'ṙ', 'Ṛ', 'ṛ', 'Ṝ', 'ṝ', 'Ṟ', 'ṟ', 'Ṡ', 'ṡ', 'Ṣ', 'ṣ', 'Ṥ', 'ṥ', 'Ṧ', 'ṧ', 'Ṩ', 'ṩ', 'Ṫ', 'ṫ', 'Ṭ', 'ṭ', 'Ṯ', 'ṯ', 'Ṱ', 'ṱ', 'Ṳ', 'ṳ', 'Ṵ', 'ṵ', 'Ṷ', 'ṷ', 'Ṹ', 'ṹ', 'Ṻ', 'ṻ', 'Ṽ', 'ṽ', 'Ṿ', 'ṿ', 'Ẁ', 'ẁ', 'Ẃ', 'ẃ', 'Ẅ', 'ẅ', 'Ẇ', 'ẇ', 'Ẉ', 'ẉ', 'Ẋ', 'ẋ', 'Ẍ', 'ẍ', 'Ẏ', 'ẏ', 'Ẑ', 'ẑ', 'Ẓ', 'ẓ', 'Ẕ', 'ẕ', 'ẖ', 'ẗ', 'ẘ', 'ẙ', 'ẚ', 'ẛ',
-'ẜ', 'ẝ', 'ẞ', 'ẟ', 'Ạ', 'ạ', 'Ả', 'ả', 'Ấ', 'ấ', 'Ầ', 'ầ', 'Ẩ', 'ẩ', 'Ẫ', 'ẫ', 'Ậ', 'ậ', 'Ắ', 'ắ', 'Ằ', 'ằ', 'Ẳ', 'ẳ', 'Ẵ', 'ẵ', 'Ặ', 'ặ', 'Ẹ', 'ẹ', 'Ẻ', 'ẻ', 'Ẽ', 'ẽ', 'Ế', 'ế', 'Ề', 'ề', 'Ể', 'ể', 'Ễ', 'ễ', 'Ệ', 'ệ', 'Ỉ', 'ỉ', 'Ị', 'ị', 'Ọ', 'ọ', 'Ỏ', 'ỏ', 'Ố', 'ố', 'Ồ', 'ồ', 'Ổ', 'ổ', 'Ỗ', 'ỗ', 'Ộ', 'ộ', 'Ớ', 'ớ', 'Ờ', 'ờ', 'Ở', 'ở', 'Ỡ', 'ỡ', 'Ợ', 'ợ', 'Ụ', 'ụ', 'Ủ', 'ủ', 'Ứ', 'ứ', 'Ừ', 'ừ', 'Ử', 'ử', 'Ữ', 'ữ', 'Ự', 'ự', 'Ỳ', 'ỳ', 'Ỵ', 'ỵ', 'Ỷ', 'ỷ', 'Ỹ', 'ỹ', 'Ỻ', 'ỻ', 'Ỽ', 'ỽ', 'Ỿ', 'ỿ' 
+'ẜ', 'ẝ', 'ẞ', 'ẟ', 'Ạ', 'ạ', 'Ả', 'ả', 'Ấ', 'ấ', 'Ầ', 'ầ', 'Ẩ', 'ẩ', 'Ẫ', 'ẫ', 'Ậ', 'ậ', 'Ắ', 'ắ', 'Ằ', 'ằ', 'Ẳ', 'ẳ', 'Ẵ', 'ẵ', 'Ặ', 'ặ', 'Ẹ', 'ẹ', 'Ẻ', 'ẻ', 'Ẽ', 'ẽ', 'Ế', 'ế', 'Ề', 'ề', 'Ể', 'ể', 'Ễ', 'ễ', 'Ệ', 'ệ', 'Ỉ', 'ỉ', 'Ị', 'ị', 'Ọ', 'ọ', 'Ỏ', 'ỏ', 'Ố', 'ố', 'Ồ', 'ồ', 'Ổ', 'ổ', 'Ỗ', 'ỗ', 'Ộ', 'ộ', 'Ớ', 'ớ', 'Ờ', 'ờ', 'Ở', 'ở', 'Ỡ', 'ỡ', 'Ợ', 'ợ', 'Ụ', 'ụ', 'Ủ', 'ủ', 'Ứ', 'ứ', 'Ừ', 'ừ', 'Ử', 'ử', 'Ữ', 'ữ', 'Ự', 'ự', 'Ỳ', 'ỳ', 'Ỵ', 'ỵ', 'Ỷ', 'ỷ', 'Ỹ', 'ỹ', 'Ỻ', 'ỻ', 'Ỽ', 'ỽ', 'Ỿ', 'ỿ',
 'ἀ', 'ἁ', 'ἂ', 'ἃ', 'ἄ', 'ἅ', 'ἆ', 'ἇ', 'Ἀ', 'Ἁ', 'Ἂ', 'Ἃ', 'Ἄ', 'Ἅ', 'Ἆ', 'Ἇ', 'ἐ', 'ἑ', 'ἒ', 'ἓ', 'ἔ', 'ἕ', 'Ἐ', 'Ἑ', 'Ἒ', 'Ἓ', 'Ἔ', 'Ἕ', 'ἠ', 'ἡ', 'ἢ', 'ἣ', 'ἤ', 'ἥ', 'ἦ', 'ἧ', 'Ἠ', 'Ἡ', 'Ἢ', 'Ἣ', 'Ἤ', 'Ἥ', 'Ἦ', 'Ἧ', 'ἰ', 'ἱ', 'ἲ', 'ἳ', 'ἴ', 'ἵ', 'ἶ', 'ἷ', 'Ἰ', 'Ἱ', 'Ἲ', 'Ἳ', 'Ἴ', 'Ἵ', 'Ἶ', 'Ἷ', 'ὀ', 'ὁ', 'ὂ', 'ὃ', 'ὄ', 'ὅ', 'Ὀ', 'Ὁ', 'Ὂ', 'Ὃ', 'Ὄ', 'Ὅ', 'ὐ', 'ὑ', 'ὒ', 'ὓ', 'ὔ', 'ὕ', 'ὖ', 'ὗ', 'Ὑ', 'Ὓ', 'Ὕ', 'Ὗ', 'ὠ', 'ὡ', 'ὢ', 'ὣ', 'ὤ', 'ὥ', 'ὦ', 'ὧ', 'Ὠ', 'Ὡ', 'Ὢ', 'Ὣ', 'Ὤ', 'Ὥ', 'Ὦ', 'Ὧ', 'ὰ',
 'ά', 'ὲ', 'έ', 'ὴ', 'ή', 'ὶ', 'ί', 'ὸ', 'ό', 'ὺ', 'ύ', 'ὼ', 'ώ', 'ᾀ', 'ᾁ', 'ᾂ', 'ᾃ', 'ᾄ', 'ᾅ', 'ᾆ', 'ᾇ', 'ᾈ', 'ᾉ', 'ᾊ', 'ᾋ', 'ᾌ', 'ᾍ', 'ᾎ', 'ᾏ', 'ᾐ', 'ᾑ', 'ᾒ', 'ᾓ', 'ᾔ', 'ᾕ', 'ᾖ', 'ᾗ', 'ᾘ', 'ᾙ', 'ᾚ', 'ᾛ', 'ᾜ', 'ᾝ', 'ᾞ', 'ᾟ', 'ᾠ', 'ᾡ', 'ᾢ', 'ᾣ', 'ᾤ', 'ᾥ', 'ᾦ', 'ᾧ', 'ᾨ', 'ᾩ', 'ᾪ', 'ᾫ', 'ᾬ', 'ᾭ', 'ᾮ', 'ᾯ', 'ᾰ', 'ᾱ', 'ᾲ', 'ᾳ', 'ᾴ', 'ᾶ', 'ᾷ', 'Ᾰ', 'Ᾱ', 'Ὰ', 'Ά', 'ᾼ', 'ῂ', 'ῃ', 'ῄ', 'ῆ', 'ῇ', 'Ὲ', 'Έ', 'Ὴ', 'Ή', 'ῌ', 'ῐ', 'ῑ', 'ῒ', 'ΐ', 'ῖ', 'ῗ', 'Ῐ', 'Ῑ', 'Ὶ', 'Ί', 'ῠ', 'ῡ', 'ῢ', 'ΰ', 'ῤ', 'ῥ', 'ῦ', 'ῧ', 'Ῠ', 'Ῡ', 'Ὺ', 'Ύ', 'Ῥ', 'ῲ', 'ῳ', 'ῴ', 'ῶ', 'ῷ', 'Ὸ', 'Ό', 'Ὼ', 'Ώ', 'ῼ',
 '①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩', '⑪', '⑫', '⑬', '⑭', '⑮', '⑯', '⑰', '⑱', '⑲', '⑳', '⓫', '⓬', '⓭', '⓮', '⓯', '⓰', '⓱', '⓲', '⓳', '⓴',
@@ -24,6 +24,7 @@ possiblechar = ['¡','¢', '£', '¤', '¥', '¦', '§', 'ª', '°', '±', '²',
 # a dictionary of all randomally generated words in the language
 lexicon = {"language":"χ", "ash":"Æ", "be":"=", "what":"?"}
 script = ''
+name = ' '
 
 # a function to create symbols for words and remove them from the list of possible characters that can be chosen
 def define(word):
@@ -53,35 +54,40 @@ def respond(*words):
     sentence = ''
     for i in words:
         sentence += i + ' ' 
-    response = input('\n' + "Æ: " + sentence + '\n' + name + ": ")
+    response = input('\n' + "Æ: " + sentence + '\n' + name[0] + ": ")
     analyse(response)
 
 # a function to analyse what the player has said and response appropriately
 def analyse(response):
     if response == 'exit':
-            quit
-    elif response == lexicon['person'] + ' ' + lexicon['what'] + ' ' + lexicon['be'] + ' ' + lexicon['you']:
-        respond(lexicon['me'], lexicon['be'], lexicon['ash'])
-    elif response == lexicon['me'] + ' ' + lexicon['be'] + ' ' + lexicon['ash']:
-        respond(lexicon['no'], '.', lexicon['me'], lexicon['be'], lexicon['ash'])
-    elif response == lexicon['you'] + ' ' + lexicon['be'] + ' ' + lexicon['ash']:
-        respond(lexicon['yes'], '.', lexicon['me'], lexicon['be'], lexicon['ash'])
-    elif response == lexicon['no'] + ' . ' + lexicon['me'] + ' ' + lexicon['be'] + ' ' + lexicon['ash']:
-        respond(lexicon['no'], '.', lexicon['me'], lexicon['be'], lexicon['ash'])
-    elif response == lexicon['me']:
-        respond(lexicon['you'] + ' ^')
+        exit
+    elif response == 'clear':
+        clear()
+        respond()
+
+    elif lexicon['me'] + ' ' + lexicon['be'] in response:
+        if response == lexicon['me'] + ' ' + lexicon['be'] + ' ' + lexicon['ash']:
+            respond(lexicon['no'], lexicon['me'], lexicon['be'], lexicon['ash'])
+        else:
+            global name
+            name = str(list(response.split(" "))[2])
+            respond(lexicon['hello'], name)
+    elif lexicon['you'] + ' ' + lexicon['be'] in response:
+        if response == lexicon['you'] + ' ' + lexicon['be'] + ' ' + lexicon['ash']:
+            respond(lexicon['yes'], lexicon['me'], lexicon['be'], lexicon['ash'])
+        elif response == lexicon['you'] + ' ' + lexicon['be'] + ' ' + lexicon['what']:
+            respond(lexicon['me'], lexicon['be'], lexicon['ash'])
+        else:
+            respond(lexicon['no'], lexicon['me'], lexicon['be'], lexicon['ash'])
+
     elif response == lexicon['you']:
-        respond( '< ' + lexicon['me'])
-    elif response == lexicon['ash']:
-        respond(lexicon['ash'], lexicon['be'], lexicon['me'])
-    elif response == lexicon['person'] + ' ' + lexicon['what']:
         respond(lexicon['me'], lexicon['be'], lexicon['ash'])
-    elif response == lexicon['person']:
-        respond(lexicon['person'], lexicon['what'])
-    elif response == lexicon['person']:
-        respond(lexicon['me'], lexicon['be'], lexicon['person'], '.', lexicon['you'], lexicon['be'], lexicon['person'])
-    elif response == lexicon['be']:
-        respond(lexicon['what'], lexicon['be'], lexicon['what'])
+    elif response == lexicon['me']: 
+        respond(lexicon['you'], lexicon['be'], lexicon['what'])
+
+    elif response == lexicon['ash']:
+        respond(lexicon['me'], lexicon['be'], lexicon['ash'])
+
     else:
         respond(lexicon['what'])
 
@@ -90,8 +96,4 @@ if __name__ == '__main__':
     print(script)
 
     # intro
-    q1 = lexicon['hello'], '!', '\n' + '   ' + lexicon['me'], lexicon['be'], '"', lexicon['ash'], '"', '\n' + '   ' + lexicon['you'], lexicon['be'], lexicon['what']
-    sentence1 = ''
-    for i in q1:
-        sentence1 += i + ' ' 
-    name = input('\n' + "Æ: " + sentence1 + '\n')
+    respond(lexicon['hello'], '!', '\n' + '   ' + lexicon['me'], lexicon['be'], lexicon['ash'], '\n' + '   ' + lexicon['you'], lexicon['be'], lexicon['what'])  
